@@ -31,7 +31,7 @@ the NOAA Satellite and Information Service involving global climate and weather.
 The data link is: http://www.ncdc.noaa.gov /cgi-bin/res40.pl?page=gsod.html
 }
 \references{
-Wang, J., Yang, M. and Majumdar, A. (2017). Comparative Study and Sensitivity Analysis of Skewed Spatial Processes.
+Wang, J., Yang, M. and Majumdar, A. (2018). Comparative Study and Sensitivity Analysis of Skewed Spatial Processes. Computational Statistics, 33, 75-98.
 }
 %%\examples{
 %%ata(data)

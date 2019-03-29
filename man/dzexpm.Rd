@@ -31,8 +31,7 @@ A date.frame is returned which includes quantities "DIC", "coverage", "bias.med"
 prediction error and standard error over MCMC scheme iterations, respectively, for the predictive performance of the skewed spatial process.
 }
 \references{
-Wang, J., Yang, M. and Majumdar, A. (2017). Comparative Study and Sensitivity Analysis of Skewed Spatial Processes.
-
+Wang, J., Yang, M. and Majumdar, A. (2018). Comparative Study and Sensitivity Analysis of Skewed Spatial Processes. Computational Statistics, 33,75-98.
 
 Gelman, A., Carlin, J., Stern, H. and Rubin, D. (2004). Bayesian Data Analysis: Second Edition. Texts in Statistical Science. CRC Press. ISBN 1-58488-388-X. LCCN 2003051474. MR 2027492.
 }
@@ -58,7 +57,7 @@ Jiangyan Wang, Miao Yang and Anandamayee Majumdar
   theta<- 2/150000
   n<- 56
   p<- 0.1
- dzexpm(y_ful, x_ful, n_ful, n, u1, u2, theta, p, 50, 20)
+ dzexpm(y_ful, x_ful, n_ful, n, u1, u2, theta, p, 80, 20)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -1,7 +1,7 @@
-59f2d05c275bff62b0447b5e65138fff *DESCRIPTION
+53bb986ca28004e25f241dc3b1f9642e *DESCRIPTION
 11bd046e967bf61b8b8faa0a45252ec3 *NAMESPACE
-b5de3e6211e75b7d5cf079d812ba55c4 *R/dzexpm.R
+868a814d60479c12535c70b92f9f7f9e *R/dzexpm.r
 dfdc0767d55661f5ca742be86a296c65 *data/MaxTemp03.rda
-0d4fdad5bdc5ba155ecdd44a97c3a20d *man/DZEXPM-package.Rd
-e3ca8add8af7931f431e910d75be1073 *man/MaxTemp03.Rd
-2619725f400b5d0979308df7347d2c76 *man/dzexpm.Rd
+cc6c527aad09bde82cf8d285d672aace *man/MaxTemp03.Rd
+4a6b65cb222c1818fb389e20ac96eef1 *man/dzexpm-package.Rd
+10a7920ee7f07c30052b12e9cf45d42f *man/dzexpm.Rd

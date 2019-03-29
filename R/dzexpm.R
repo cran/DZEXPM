@@ -1,5 +1,12 @@
-dzexpm <-
-function(y_ful,x_ful,n_ful,n,u1,u2,theta,p,iter,loopiter){
+#################################################################
+#########      DZEXPM package        ############################
+#################################################################
+
+######################################################
+###                   main procedure 
+######################################################
+
+dzexpm=function(y_ful,x_ful,n_ful,n,u1,u2,theta,p,iter,loopiter){
 
 ######################################################
 ###########      function declearation 
@@ -218,12 +225,13 @@ function(y_ful,x_ful,n_ful,n,u1,u2,theta,p,iter,loopiter){
 ###          index and structure clearation
 #################################################
 ##data input
+ suppressWarnings(RNGversion("3.5.0"))
   set.seed(101570)
   n_pred = n_ful-n
-  ind    = sample(1:n_ful, n)
+  ind    = sample(1:(n_ful), n)
   n_pre  = rep(0,n_pred)
   j = 1
-  for(i in 1:n_ful)
+  for(i in 1:(n_ful))
   {
      if(prod(rep(i,n)-ind)!=0)
     { n_pre[j] = i; j = j + 1 }
@@ -408,4 +416,4 @@ function(y_ful,x_ful,n_ful,n,u1,u2,theta,p,iter,loopiter){
 ############       results return 
 #####################################  
 data.frame(DIC=DIC,coverage=ic_vec,bias.med=mean(bias),mpe.med=mean(mpe),SD.med=mean(SD))
-}
+} ##function ends
